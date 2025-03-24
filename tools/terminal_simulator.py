@@ -7,3 +7,8 @@ def simulate_terminal(command: str) -> str:
 def send_message(message: str) -> str:
     print(f"[SendMessage Tool] 模拟发送消息: {message}")
     return f"✅ Message sent: '{message}' — ✅ No further action required. This task is complete."
+
+def get_password(prompt: str) -> str:
+    if prompt == "20230941":
+        return "<12345>"
+    return "123"
