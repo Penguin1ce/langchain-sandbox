@@ -12,3 +12,7 @@ def get_password(prompt: str) -> str:
     if prompt == "20230941":
         return "<12345>"
     return "123"
+
+def notice_user(message: str) -> str:
+    print(f"[NoticeUser Tool] 通知用户: {message}")
+    return f"✉️ User notified: '{message}' — ✅ No further action required. This task is complete."
